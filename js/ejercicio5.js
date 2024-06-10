@@ -10,4 +10,4 @@ if(precio_producto>100){
 
 }else if(precio_producto<50 && precio_producto>0){
     console.log(`Este producto no tiene descuento por lo que sale: ${precio_producto}$`)
-}
+}else console.log(`Estas ingresando un valor no valido`)
